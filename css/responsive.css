@@ -24,8 +24,39 @@
         display: inline;
     }
 
+    .leftNav {
+        flex-basis: 30%;
+    }
 
+    .mainNav {
+        flex-basis: 70%;
+    }
 
+    .hiddenHr {
+        display: block;
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+        border: 1px solid blue;
+    }
+}
 
+@media screen and (min-width:768px) {
+
+    .recently,
+    .created,
+    .popular {
+        flex-basis: calc(100% / 4 - 0.5rem);
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .recently,
+    .created,
+    .popular {
+        flex-basis: calc(100% / 6 - 0.5rem);
+    }
 
 }
