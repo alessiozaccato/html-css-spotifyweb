@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+ul li {
+    list-style-type: none;
+    /* text-indent: 0%; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

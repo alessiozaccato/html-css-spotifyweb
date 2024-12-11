@@ -1,0 +1,30 @@
+@media screen and (min-width:480px) {
+    .flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-spotify {
+        font-size: 2rem;
+    }
+
+    .spotify {
+        font-size: 2rem;
+    }
+
+    .fa-square-plus {
+        font-size: 2rem;
+    }
+
+    .addPlaylist {
+        font-size: 1rem;
+    }
+
+    .hidden {
+        display: inline;
+    }
+
+
+
+
+}

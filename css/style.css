@@ -1,0 +1,18 @@
+/* top container  */
+.container {
+    display: flex;
+    height: 90vh;
+}
+
+/* left navigation bar */
+.leftNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 160%;
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
