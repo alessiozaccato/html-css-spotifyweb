@@ -16,3 +16,53 @@
 .hidden {
     display: none;
 }
+
+/* main navigation  */
+.mainNav {
+    overflow: auto;
+}
+
+.topNav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#upgrade {
+    border-color: 10px solid white;
+    border-radius: 20px;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.label {
+    text-transform: uppercase;
+}
+
+/* cards navigation */
+.cards_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card figure img {
+    width: 100%;
+}
+
+.card {
+    flex-basis: calc(100% / 2 - 0.5rem);
+}
