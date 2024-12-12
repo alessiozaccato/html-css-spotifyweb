@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spootifyweb</title>
 
-    <link rel="stylesheet" href="./css/debug.css">
+    <!-- <link rel="stylesheet" href="./css/debug.css"> -->
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
 </head>
 
@@ -20,7 +20,7 @@
     <div class="container">
         <div class="leftNav">
             <ul>
-                <li>
+                <li class="logo">
                     <a class="flex" href="#">
                         <i class="fa-brands fa-spotify"></i>
                         <span class="hidden spotify">Spotify</span>
@@ -29,18 +29,18 @@
                 <li>
                     <a href="#">
                         <i class="fa-solid fa-house"></i>
-                        <span class="hidden">Home</span>
+                        <span class="label hidden">Home</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <span class="hidden">Cerca</span>
+                        <span class="label hidden">Cerca</span>
                     </a>
                 </li>
                 <li><a href="#">
                         <i class="fa-solid fa-barcode"></i>
-                        <span class="hidden">La tua libreria</span>
+                        <span class="label hidden">La tua libreria</span>
                     </a>
                 </li>
                 <!-- nested ul playlist  -->
@@ -52,41 +52,41 @@
                         <li>
                             <a class="flex" href="#">
                                 <i class="fa-regular fa-square-plus"></i>
-                                <span class="addPlaylist">Crea Playlist</span>
+                                <span class="addPlaylist label">Crea Playlist</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a class="label" href="#">
                                 Nome Playlist
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a class="label" href="#">
                                 Nome Playlist
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a class="label" href="#">
                                 Nome Playlist
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a class="label" href="#">
                                 Nome Playlist
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a class="label" href="#">
                                 Nome Playlist
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a class="label" href="#">
                                 Nome Playlist
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a class="label" href="#">
                                 Nome Playlist
                             </a>
                         </li>
@@ -100,7 +100,7 @@
                 <li>
                     <a href="#">
                         <i class="fa-regular fa-circle-down"></i>
-                        <span class="hidden">Installa app</span>
+                        <span class="hidden label">Installa app</span>
                     </a>
                 </li>
                 <li>
@@ -109,7 +109,7 @@
                 <li>
                     <a href="#">
                         <i class="fa-solid fa-circle-user"></i>
-                        <span class="hidden">Jhon Doe</span>
+                        <span class="hidden label">Jhon Doe</span>
                     </a>
                 </li>
             </ul>
@@ -201,7 +201,7 @@
             </div>
 
             <h1>Creato per John Doe</h1>
-            <p>Più ascolti, piu accurati saranno i suggerimenti</p>
+            <p class="label">Più ascolti, piu accurati saranno i suggerimenti</p>
 
             <div class="created_container">
                 <div class="created">
@@ -221,7 +221,7 @@
             </div>
 
             <h1>Artisti più Popolari</h1>
-            <p>Più ascolti, piu accurati saranno i suggerimenti</p>
+            <p class="label">Più ascolti, piu accurati saranno i suggerimenti</p>
 
             <div class="popular_container">
                 <div class="popular">
@@ -253,6 +253,13 @@
                 <p class="label">brano</p>
                 <p class="label">nome</p>
             </figcaption> -->
+        </div>
+
+        <div class="center_footer">
+
+        </div>
+
+        <div class="right_footer">
 
         </div>
     </div>

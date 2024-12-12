@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: space-between;
     line-height: 200%;
-    padding: 0.5em;
+    padding: 1em;
     background-color: black;
 }
 
@@ -37,24 +37,29 @@ strong {
     color: white;
 }
 
+h1,
+p {
+    margin-block: 1rem;
+}
+
 .topNav {
     position: sticky;
     top: 0;
     z-index: 1;
-    height: 10%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.8);
+    padding: 1.5em;
 }
 
 #upgrade {
-    border: 1px solid white;
+    border: 1px solid #6a6c72;
     border-radius: 20px;
     padding-block: 0.5rem;
     padding-inline: 1rem;
     background-color: black;
-    color: white;
+    color: #6a6c72;
 }
 
 .menu {
@@ -65,10 +70,12 @@ strong {
     gap: 1em;
     padding: 0.5em;
     font-size: 0.6rem;
+    margin-block: 1rem;
 }
 
 .label {
     color: #6a6c72;
+    font-size: 1rem;
 }
 
 
@@ -92,6 +99,8 @@ strong {
 .popular {
     flex-basis: calc(100% / 2 - 0.5rem);
 }
+
+
 
 /* bottom navigation  */
 /* .bottom_container {
