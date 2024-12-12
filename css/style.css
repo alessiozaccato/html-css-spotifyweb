@@ -18,6 +18,10 @@
     display: none;
 }
 
+.hiddenPlaylist {
+    display: none;
+}
+
 .hiddenHr {
     display: none;
 }

@@ -39,6 +39,10 @@
         margin: 0 auto;
         border: 1px solid white;
     }
+
+    .hiddenPlaylist {
+        display: block;
+    }
 }
 
 @media screen and (min-width:768px) {
