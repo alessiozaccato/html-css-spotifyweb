@@ -73,24 +73,13 @@
         display: block;
     }
 
-    /* bonus section  */
-    .label:hover {
-        color: white;
+
+    .right_footer_right input {
+        width: 60%;
     }
 
-    .fa-solid:hover,
-    .fa-regular:hover {
-        color: white;
-    }
-
-    li a:hover {
-        border-left: 3px solid green;
-    }
-
-    #upgrade:hover {
-        padding: 1.5em;
-        color: white;
-        border-color: white;
+    .center_footer_bottom input {
+        width: 55%;
     }
 
 }
@@ -103,6 +92,14 @@
         flex-basis: calc(100% / 4 - 0.5rem);
     }
 
+    .right_footer_right input {
+        width: 80%;
+    }
+
+    .center_footer_bottom input {
+        width: 60%;
+    }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -112,4 +109,13 @@
     .popular {
         flex-basis: calc(100% / 6 - 0.5rem);
     }
+
+    .right_footer_right input {
+        width: 90%;
+    }
+
+    .center_footer_bottom input {
+        width: 80%;
+    }
+
 }

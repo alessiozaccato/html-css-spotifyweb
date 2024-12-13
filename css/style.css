@@ -93,6 +93,10 @@ h1 {
     width: 100%;
 }
 
+.popular figure img {
+    border-radius: 50%;
+}
+
 .recently,
 .created,
 .popular {
@@ -114,15 +118,12 @@ h1 {
 .leftFooter {
     display: flex;
     align-items: center;
-    gap: 0.2em;
+    gap: 0.5rem;
 }
 
 .leftFooter figure img {
     width: 50px;
 }
-
-
-
 
 .center_footer_top {
     display: flex;
@@ -137,22 +138,67 @@ h1 {
 
 .center_footer_bottom input {
     width: 50%;
-
 }
 
 .right_footer {
     display: flex;
     align-items: center;
     gap: 0.1rem;
-
 }
 
 
 .right_footer ul {
     display: flex;
     align-items: center;
+    gap: 0.2rem;
 }
 
 .right_footer_right input {
     width: 50%;
+}
+
+
+/* bonus section  */
+.label:hover {
+    color: white;
+}
+
+.fa-solid:hover,
+.fa-regular:hover {
+    color: white;
+}
+
+
+#upgrade:hover {
+    padding: 1.5em;
+    color: white;
+    border-color: white;
+}
+
+.recently figure,
+.created figure,
+.popular figure {
+    position: relative;
+}
+
+.fa-play {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.recently figure:hover,
+.created figure:hover,
+.popular figure:hover {
+    opacity: 0.5;
+}
+
+.recently figure:hover .fa-play,
+.created figure:hover .fa-play,
+.popular figure:hover .fa-play {
+    display: block;
 }
