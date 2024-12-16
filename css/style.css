@@ -38,7 +38,11 @@ strong {
 }
 
 h1 {
-    margin-block: 1rem;
+    margin: 0.5rem;
+}
+
+p.label {
+    margin-left: 0.5rem;
 }
 
 .topNav {
@@ -101,6 +105,9 @@ h1 {
 .created,
 .popular {
     flex-basis: calc(100% / 2 - 0.5rem);
+    text-align: center;
+    padding-left: 1rem;
+
 }
 
 
@@ -122,7 +129,7 @@ h1 {
 }
 
 .leftFooter figure img {
-    width: 50px;
+    width: 40px;
 }
 
 .center_footer_top {

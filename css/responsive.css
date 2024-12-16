@@ -9,7 +9,7 @@
     }
 
     .fa-spotify {
-        font-size: 3rem;
+        font-size: 2rem;
         color: white;
     }
 
@@ -20,12 +20,16 @@
 
     .fa-house,
     .fa-magnifying-glass,
-    .fa-barcode,
-    .fa-circle-down,
-    .fa-circle-user {
+    .fa-barcode {
         font-size: 1.5rem;
         padding-left: 0.3rem;
         color: #6a6c72;
+    }
+
+    .fa-circle-down,
+    .fa-circle-user {
+        color: #6a6c72;
+        font-size: 1.5rem;
     }
 
 
@@ -54,11 +58,12 @@
     }
 
     .leftNav {
-        flex-basis: 20%;
+        flex-basis: 45%;
+        overflow: auto;
     }
 
     .mainNav {
-        flex-basis: 80%;
+        flex-basis: 55%;
     }
 
     .hiddenHr {
@@ -100,6 +105,16 @@
         width: 60%;
     }
 
+    .leftNav {
+        flex-basis: 40%;
+    }
+
+    .mainNav {
+        flex-basis: 60%;
+    }
+
+
+
 }
 
 @media screen and (min-width:1024px) {
@@ -117,5 +132,14 @@
     .center_footer_bottom input {
         width: 80%;
     }
+
+    .leftNav {
+        flex-basis: 30%;
+    }
+
+    .mainNav {
+        flex-basis: 70%;
+    }
+
 
 }
